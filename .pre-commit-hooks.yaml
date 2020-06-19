@@ -1,0 +1,6 @@
+-   id: graphql-linter
+    name: GraphQL schema formatting
+    description: GraphQL schema formatting and linting via docker_image
+    entry: cybergrx/graphql-linter:latest
+    language: docker_image
+    files: \.graphql$
